@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Student edit</title>
+</head>
+<body>
+    <center>
+        <h1>Update Profile</h1>
+        <form action="" method="POST">
+            {% csrf_token %}
+            <input type="text" value="{{edit.First_Name}}" name="First_Name"> <br><br>
+            <input type="text" value="{{edit.Last_Name}}" name="Last_Name"> <br><br>
+            <input type="text" value="{{edit.Age}}" name="Age"> <br><br>
+            <input type="text" value="{{edit.Address}}" name="Address"> <br><br>
+            <input type="text" value="{{edit.Contacts}}" name="Contacts"> <br><br>
+            <input type="text" value="{{edit.Email}}" name="Email"> <br><br>
+            <button type="submit">Update</button>
+        </form>
+    </center>
+    
+</body>
+</html>
