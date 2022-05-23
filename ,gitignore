@@ -1,0 +1,5 @@
+project/apps/__pycache__/
+project/apps/migrations/
+ project/apps/static/
+ project/db.sqlite3
+ !  project/apps/Angular-Project/
